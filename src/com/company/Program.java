@@ -115,7 +115,7 @@ public class Program {
 
         }
         int daysBefore = (int) (hoursTill2008 / 24);
-        System.out.println("Days spent b4 mobile came: " + daysBefore);
+        System.out.println("Days spent in toilet b4 mobile came: " + daysBefore);
 
 
         double hoursFrom2008 = 0;
@@ -125,7 +125,7 @@ public class Program {
             hoursFrom2008 += y;
         }
         int daysAfter = (int) (hoursFrom2008 / 24);
-        System.out.println("Days spent after mobile came till 80 years age: " + daysAfter);
+        System.out.println("Days spent in toilet after mobile came till 80 years age: " + daysAfter);
 
         int days = (daysBefore + daysAfter);
         System.out.println("Total days spent: " + days);
