@@ -176,7 +176,7 @@ public class Program {
 
         // if we consider age range between 18 - 65  of mobile user who spend average 3h /day,
         //people uses mobile for 47 years of their life span.
-        double totalMobileHours = (65 - 18)*3;
+        double totalMobileHours = (65 - 18)*3*365;
         double freeTimeAfterMobileHours = hoursRemaining - totalMobileHours;
 
         System.out.printf("\nFree hours of our life after mobile hours: %.2f  \n", freeTimeAfterMobileHours);
